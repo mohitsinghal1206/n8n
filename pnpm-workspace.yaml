@@ -1,6 +1,7 @@
 packages:
   - packages/*
   - packages/@n8n/*
+  - "!packages/frontend/@n8n/chat"   # skip chat frontend to save memory
   - packages/frontend/**
   - packages/extensions/**
   - cypress
